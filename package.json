@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "<victor_hugo_fuly@hotmail.com>",
   "license": "MIT",
+  "scripts":{
+    "test": "jest",
+    "test:staged": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.3.2",
