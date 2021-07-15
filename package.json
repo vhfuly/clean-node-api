@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "<victor_hugo_fuly@hotmail.com>",
   "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.3.2",
