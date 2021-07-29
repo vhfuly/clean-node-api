@@ -5,8 +5,8 @@
   "author": "<victor_hugo_fuly@hotmail.com>",
   "license": "MIT",
   "scripts":{
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
